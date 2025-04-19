@@ -1,0 +1,90 @@
+.footer {
+    background-color: #313030;
+    color: #fff;
+    padding: 20px 20px; /* Reduced padding */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Reduced gap between sections */
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-content-left,
+.footer-content-center,
+.footer-content-right {
+    flex: 1;
+    min-width: 200px; /* Reduced minimum width */
+}
+
+.footer-content-left img {
+    width: 120px; /* Reduced logo size */
+    height: auto;
+    margin-bottom: 10px; /* Reduced margin */
+    transition: transform 0.3s ease;
+}
+
+.footer-content-left img:hover {
+    transform: scale(1.05);
+}
+
+.footer-content-left p {
+    font-size: 12px; /* Reduced font size */
+    line-height: 1.4; /* Adjusted line height */
+    margin-bottom: 15px; /* Reduced margin */
+    color: #ccc;
+}
+
+.footer-social-icons img {
+    width: 20px; /* Reduced social icon size */
+    height: 20px;
+    margin-right: 12px; /* Reduced margin */
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.footer-social-icons img:hover {
+    transform: scale(1.2);
+}
+
+.footer-content-center h2,
+.footer-content-right h2 {
+    font-size: 16px; /* Reduced heading font size */
+    margin-bottom: 8px; /* Reduced margin */
+}
+
+.footer-content-center ul,
+.footer-content-right ul {
+    list-style: none;
+    padding: 0;
+    font-size: 12px; /* Reduced font size */
+    color: #ccc;
+}
+
+.footer-content-center li,
+.footer-content-right li {
+    margin-bottom: 6px; /* Reduced list item margin */
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.footer-content-center li:hover,
+.footer-content-right li:hover {
+    color: #fff;
+}
+
+.footer hr {
+    margin: 20px 0; /* Reduced margin */
+    border: 0;
+    border-top: 1px solid #333;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 12px; /* Reduced copyright font size */
+    color: #777;
+}

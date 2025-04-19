@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 2%;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white; /* or whatever your navbar background is */
+}
+
+.navbar .logo{
+    width: max(20%,30px);
+    
+}
+.navbar .profile{
+    width: 40px;
+}
