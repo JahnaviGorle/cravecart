@@ -80,21 +80,21 @@ cd cravecart
 ### 🔌 Backend Setup
 
 ```bash
-cd server
+cd backend
 npm install
 # Create a .env file with:
 # MONGO_URI=your_mongodb_uri
 # JWT_SECRET=your_jwt_secret
 # PAYPAL_CLIENT_ID=your_paypal_client_id
-npm run dev
+npm run server
 ```
 
 ### 💻 Frontend Setup
 
 ```bash
-cd client
+cd frontend
 npm install
-npm start
+npm run dev
 ```
 
 ### 🧑‍🍳 Admin Panel Setup
@@ -102,7 +102,7 @@ npm start
 ```bash
 cd admin
 npm install
-npm start
+npm run dev
 ```
 
 ---
