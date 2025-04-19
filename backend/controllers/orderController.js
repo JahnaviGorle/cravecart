@@ -11,7 +11,7 @@ const paypalClient = new paypal.core.PayPalHttpClient(environment);
 // Config variables
 const currency = "INR";
 const deliveryCharge = 50;
-const frontend_URL = 'http://localhost:5173';
+const frontend_URL = 'https://cravecart-frontend.onrender.com';
 
 // Create PayPal order and generate payment URL
 const placeOrder = async (req, res) => {
