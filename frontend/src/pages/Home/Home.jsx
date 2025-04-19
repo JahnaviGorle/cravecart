@@ -8,7 +8,7 @@ import Footer from '../../components/Footer/Footer';
 import Find from '../../components/Find/Find';
 import Chef from '../../components/Chef/Chef';
 import UserReviews from '../../components/UserReview/UserReview';// ✅ Corrected import
-import './Home.css';
+import './home.css';
 
 const Home = () => {
   const [category, setCategory] = useState("All");
